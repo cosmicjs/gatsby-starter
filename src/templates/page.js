@@ -1,6 +1,5 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import get from 'lodash/get'
 
 class PageTemplate extends React.Component {
   render() {

@@ -12,7 +12,7 @@ module.exports = {
     {
       resolve: `gatsby-source-cosmicjs`,
       options: {
-        bucketSlug: `node-starter`,
+        bucketSlug: process.env.COSMIC_BUCKET || `node-starter`,
         objectTypes: [`pages`],
         // If you have enabled read_key to fetch data (optional).
         apiAccess: {
