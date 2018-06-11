@@ -1,0 +1,20 @@
+[
+	{
+		"title": "Home",
+		"slug": "home",
+		"content": "This is the home page content.",
+		"type_slug": "pages"
+	},
+	{
+		"title": "About",
+		"slug": "about",
+		"content": "This is the about page content.",
+		"type_slug": "pages"
+	},
+	{
+		"title": "Contact",
+		"slug": "contact",
+		"content": "This is the contact page content.",
+		"type_slug": "pages"
+	}
+]
