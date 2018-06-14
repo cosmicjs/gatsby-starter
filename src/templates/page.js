@@ -10,7 +10,7 @@ class PageTemplate extends React.Component {
           <div>
             <Helmet title={page.title} />
             <h1>{page.title}</h1>
-            <div>{page.content}</div>
+            <div dangerouslySetInnerHTML={{ __html: page.content }} />
           </div>
         )}
       </div>
