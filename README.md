@@ -10,7 +10,7 @@ npm install
 npm run develop
 ```
 
-Install via the [Cosmic CLI](https://github.com/cosmicjs/cosmic-cli).
+Install via the [Cosmic CLI](https://github.com/cosmicjs/cosmic-cli). Installs demo content.
 ```bash
 npm i -g cosmic-cli
 
