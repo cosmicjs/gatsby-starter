@@ -2,7 +2,7 @@
 Gatsby starter app powered by [Cosmic JS](https://cosmicjs.com) 🚀
 
 ## Installation
-Download
+Option 1: Download
 ```bash
 git clone https://github.com/cosmicjs/gatsby-starter
 cd gatsby-starter
@@ -10,7 +10,7 @@ npm install
 npm run develop
 ```
 
-Install via the [Cosmic CLI](https://github.com/cosmicjs/cosmic-cli). Installs demo content and connects to your Cosmic JS Bucket.
+Option 2: Install via the [Cosmic CLI](https://github.com/cosmicjs/cosmic-cli). Installs demo content and connects to your Cosmic JS Bucket.
 ```bash
 npm i -g cosmic-cli
 
