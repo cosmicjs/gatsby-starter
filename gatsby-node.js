@@ -1,8 +1,9 @@
-const _ = require('lodash')
+const each = require('lodash/each')
+const find = require('lodash/find')
 const path = require('path')
 
-exports.createPages = ({ graphql, boundActionCreators }) => {
-  const { createPage } = boundActionCreators
+exports.createPages = ({ graphql, actions }) => {
+  const { createPage } = actions
 
   return new Promise((resolve, reject) => {
     const pageTemplate = path.resolve('./src/templates/page.js')
@@ -36,9 +37,9 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
         const navs = result.data.site.siteMetadata.nav;
         const pages = result.data.allCosmicjsPages.edges;
 
-        _.each(navs, (page, index) => {
+        each(navs, (page, index) => {
           const $slug = (page.slug === '/') ? 'home' : page.slug.slice(1);
-          if(_.find(pages, function(o) { return o.node.slug === $slug })) {
+          if(find(pages, function(o) { return o.node.slug === $slug })) {
             createPage({
               path: `${page.slug}`,
               component: pageTemplate,

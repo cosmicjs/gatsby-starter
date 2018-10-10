@@ -1,11 +1,13 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import { graphql } from 'gatsby'
+import Layout from '../components/layout'
 
 class PageTemplate extends React.Component {
   render() {
     const page = this.props.data.cosmicjsPages
     return (
-      <div>
+      <Layout>
         {page && (
           <div>
             <Helmet title={page.title} />
@@ -13,7 +15,7 @@ class PageTemplate extends React.Component {
             <div dangerouslySetInnerHTML={{ __html: page.content }} />
           </div>
         )}
-      </div>
+      </Layout>
     )
   }
 }
