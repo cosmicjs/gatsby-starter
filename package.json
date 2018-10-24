@@ -16,7 +16,7 @@
   "scripts": {
     "start": "gatsby build; gatsby serve --port $PORT",
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "develop": "gatsby develop --port $PORT",
     "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
     "format": "prettier --write 'src/**/*.js'",
     "import": "node ./scripts/import.js",
