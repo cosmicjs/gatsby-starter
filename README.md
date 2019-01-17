@@ -22,3 +22,5 @@ cosmic init gatsby-starter
 cd gatsby-starter
 cosmic start
 ```
+## [Gatsby CMS](https://cosmicjs.com/knowledge-base/gatsby-cms)
+Cosmic JS offers a [Headless CMS](https://cosmicjs.com/headless-cms) used to power content for your Gatsby websites and apps.
