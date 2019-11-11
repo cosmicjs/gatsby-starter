@@ -1,5 +1,5 @@
 # Gatsby Starter
-Gatsby starter app powered by [Cosmic JS](https://cosmicjs.com) 🚀
+Gatsby starter app powered by [Cosmic JS](https://cosmicjs.com) 🚀 Uses the [Official Cosmic JS Source Plugin for Gatsby](https://www.npmjs.com/package/gatsby-source-cosmicjs).
 
 ## Installation
 Option 1: Download code. Connects to demo Bucket.
