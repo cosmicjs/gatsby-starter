@@ -16,7 +16,7 @@ module.exports = {
         objectTypes: [`pages`],
         // If you have enabled read_key to fetch data (optional).
         apiAccess: {
-          read_key: ``,
+          read_key: process.env.COSMIC_READ_KEY || ``,
         }
       }
     },
